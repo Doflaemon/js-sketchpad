@@ -16,8 +16,6 @@ $(document).ready(function(){
 
 function createPad(px){
 
-	var upgrade = px * 20
-
 	$grid = $("#grid");
 
 	$grid.css("height", px).css("width", px).css("background-color", "#E3E3E3");
